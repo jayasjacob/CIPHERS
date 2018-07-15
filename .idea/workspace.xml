@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20948c77-4e59-4b89-afef-9148d2013e00" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="115" column="71" selection-start-line="115" selection-start-column="71" selection-end-line="115" selection-end-column="71" />
+            <state relative-caret-position="168">
+              <caret line="588" column="51" selection-start-line="588" selection-start-column="51" selection-end-line="588" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -141,12 +140,12 @@
       <workItem from="1531499804806" duration="8878000" />
       <workItem from="1531549203885" duration="4432000" />
       <workItem from="1531663863162" duration="14313000" />
-      <workItem from="1531683385928" duration="364000" />
+      <workItem from="1531683385928" duration="1174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29624000" />
+    <option name="totallyTimeSpent" value="30434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="-11" width="1327" height="780" extended-state="6" />
@@ -159,7 +158,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.06933744" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.117103234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -238,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="115" column="71" selection-start-line="115" selection-start-column="71" selection-end-line="115" selection-end-column="71" />
+        <state relative-caret-position="168">
+          <caret line="588" column="51" selection-start-line="588" selection-start-column="51" selection-end-line="588" selection-end-column="51" />
         </state>
       </provider>
     </entry>

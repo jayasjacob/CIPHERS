@@ -638,7 +638,7 @@ h1.subheading-agileits-w3layouts span {
     text-align: center;
     padding: 1em 1em 0 1em;
     background: #efefef;
-    /* min-height: 230px; */
+     min-height: 230px;
 }
 .view .mask,.view .content {
    position: absolute;
@@ -2947,3 +2947,15 @@ border:2px solid #f85993;
     }
 }
 /*--//responsive--*/
+.twt{
+    animation-delay:1s;
+    animation-duration: 3s !important;
+}
+.fb{
+    animation-delay:1.2s;
+    animation-duration: 3s !important;
+}
+.ggl{
+    animation-delay:1.4s;
+    animation-duration: 3s !important;
+}

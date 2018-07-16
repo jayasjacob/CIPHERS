@@ -27,6 +27,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <!--//fonts-->
 </head>
 <body>
@@ -619,10 +620,10 @@ testimonials
 					<div class="address-w3-agile"><i class="fa fa-mobile" aria-hidden="true"></i><p>+91 8848832883 </br>+91 7736409656 </br> +91 9902667631 </p><div class="clearfix"></div></div>
 					<div class="address-w3-agile"><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@example.com">ciphersdev@gmail.com</a><div class="clearfix"></div></div>
 					<ul class="social-icons">
-						<li><a href="https://www.facebook.com/ciphers.dev.3" class="fb"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="twt"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-						<li><a href="https://plus.google.com/u/2/100550510380645249761" class="ggl"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="lin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.facebook.com/ciphers.dev.3" class="fb" style="animation-delay:1s;animation-duration: 3s"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="twt" style="animation-delay:1.2s;animation-duration: 3s"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+						<li><a href="https://plus.google.com/u/2/100550510380645249761" class="ggl" style="animation-delay:1.4s;animation-duration: 3s"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="lin" style="animation-delay:1.6s;animation-duration: 3s"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 					</ul>
 					<div class="clearfix"></div>
 				</div>
@@ -783,9 +784,9 @@ testimonials
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- Bootstrap -->
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<!--<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
 <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>-->
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbz6YLgGQYsumqup2EkXG4bQyM2XF5oyzMN5UbM0sknuTVSZaCJ5/exec'
     const form = document.forms['submit-to-google-sheet'];
@@ -798,5 +799,13 @@ testimonials
     })
 </script>
 <!-- //Bootstrap -->
+
+<script>
+
+		$(".logo-agileits").addClass("animated slideInRight");
+		$(".banner-info-w3layouts").addClass("animated slideInLeft");
+		$(".social-icons a").addClass("animated flash infinite")
+
+</script>
 </body>
 </html>

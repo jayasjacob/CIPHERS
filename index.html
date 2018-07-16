@@ -352,7 +352,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p>We use most capturing content to express your ideas.</p>
 					
 					<div class="sevices-w3layouts-img c1">
-						<i class="fa fa-bar-chart" aria-hidden="true"></i>
+						<i class="fa fa-pencil" aria-hidden="true"></i>
 						<h6>Content Writing</h6>
 						<!--<p>eleifend</p>-->
 					</div>
@@ -362,7 +362,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p>We blend technology with creativity to ensure that you make the best impact on market. </p>
 					
 					<div class="sevices-w3layouts-img c2">
-						<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+						<i class="fa fa-area-chart" aria-hidden="true"></i>
 						<h6>Digital Marketing</h6>
 						<!--<p>Aenean</p>-->
 					</div>
@@ -382,7 +382,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p>Our innovative developers creates breakthrough which delivers crafted,quality tested application.</p>
 					
 					<div class="sevices-w3layouts-img c4">
-						<i class="fa fa-area-chart" aria-hidden="true"></i>
+						<i class="fa fa-mobile-phone" aria-hidden="true"></i>
 						<h6>App Development</h6>
 						<!--<p>Aenean</p>-->
 					</div>
@@ -594,20 +594,20 @@ testimonials
 		<div class="contact-agile">
 				<div class="contact-middle">
 					<h4>Say Hello</h4>
-					<form action="#" method="post">
+					<form name="submit-to-google-sheet">
 					<div class="form-agileinfo">
 					<div class="input-w3ls">
 						<p>Name</p>
-						<input type="text" name="your name" placeholder=" " required="" />
+						<input type="text" name="name" placeholder=" " required="" />
 					</div>
 					<div class="input-w3ls">
 						<p>Email</p>
-						<input type="email" name="your email" placeholder=" " required="" />
+						<input type="email" name="email" placeholder=" " required="" />
 					</div>
 					</div>
 					<div class="form-agileits-w3layouts">
 					<p>Comments</p>
-						<textarea  name="your message" placeholder=" " required="" ></textarea>
+						<textarea  name="comment" placeholder=" " required="" ></textarea>
 							<input type="submit"   value="Send message">
 					</div>
 					<div class="clearfix"></div>
@@ -783,6 +783,20 @@ testimonials
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- Bootstrap -->
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz6YLgGQYsumqup2EkXG4bQyM2XF5oyzMN5UbM0sknuTVSZaCJ5/exec'
+    const form = document.forms['submit-to-google-sheet'];
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => location.reload())
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
 <!-- //Bootstrap -->
 </body>
 </html>

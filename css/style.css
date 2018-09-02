@@ -2959,3 +2959,8 @@ border:2px solid #f85993;
     animation-delay:1.4s;
     animation-duration: 3s !important;
 }
+img.logo{
+    width: 250px;
+    height: auto;
+    margin-top: -200px;
+}
